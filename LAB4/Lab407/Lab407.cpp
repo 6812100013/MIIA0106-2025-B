@@ -19,7 +19,7 @@ int main() {
     cout << "--- Safe Prime Checker ---" << endl;
 
     while (true) {
-        cout << "\nEnter positive integer (0 to exit): ";
+        cout << "\n Enter positive integer (0 to exit): ";
         cin >> num;
 
         
