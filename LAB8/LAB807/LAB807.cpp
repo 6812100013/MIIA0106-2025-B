@@ -14,7 +14,7 @@ struct Parent {
 };
 
 struct Student {
-    //TODO 1) เติม field ใน struct Student ให้ครบ: studentID, nickname
+
     string id;
     string nickname;
 	string lineid;
@@ -48,15 +48,13 @@ void inputStudent(Student &student) {
 	cout << "Parent's mobile number: ";
 	cin >> student.myParent.contact.mobile;
 
-
-
 	cout << "Parent's home number: ";
 	cin >> student.myParent.contact.home;
 
 }
 
 
-void printStudent(const Student& student) {
+void printStudent(const Student &student) {
 	cout << "\n=====Student Information =====\n";
 	cout << "ID: " << student.id << endl;
 	cout << "Nickname: " << student.nickname << endl;
